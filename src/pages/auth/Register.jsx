@@ -1,4 +1,4 @@
-import { FaUser, FaKey } from "react-icons/fa";
+import { MdOutlineEmail, MdFace2, MdOutlineSupervisedUserCircle, MdOutlineKey } from "react-icons/md"
 import Form from "../../components/Base/Cards/Form";
 import LineInput from "../../components/Base/InputBoxes/LineInput";
 import FilledButton from "../../components/Base/Buttons/FilledButton";
@@ -9,25 +9,25 @@ const Register = () => {
 			<Form className={"text-center px-5 h-full sm:h-fit"} heading={"Register"} action="/register">
 				<div className="flex flex-col space-y-5 px-5 items-center z-10 py-10">
 					<LineInput
-						icon={<FaUser className="text-purple-900/70" />}
+						icon={<MdFace2 className="text-purple-900/70" />}
 						text="Enter Username..."
 						type="text"
 						name="text"
 					/>
 					<LineInput
-						icon={<FaUser className="text-purple-900/70" />}
+						icon={<MdOutlineSupervisedUserCircle className="text-purple-900/70" />}
 						text="Enter Name..."
 						type="text"
 						name="text"
 					/>
 					<LineInput
-						icon={<FaUser className="text-purple-900/70" />}
+						icon={<MdOutlineEmail className="text-purple-900/70" />}
 						text="Enter Email..."
 						type="email"
 						name="email"
 					/>
 					<LineInput
-						icon={<FaKey className="text-purple-900/70" />}
+						icon={<MdOutlineKey className="text-purple-900/70" />}
 						text="Enter Password..."
 						type="password"
 						name="password"

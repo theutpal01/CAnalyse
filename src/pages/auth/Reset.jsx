@@ -1,4 +1,4 @@
-import { FaUser, FaKey } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md"
 import Form from "../../components/Base/Cards/Form";
 import LineInput from "../../components/Base/InputBoxes/LineInput";
 import FilledButton from "../../components/Base/Buttons/FilledButton";
@@ -9,7 +9,7 @@ const Reset = () => {
 			<Form className={"text-center px-5 h-full sm:h-fit"} heading={"Reset Password"} action="/register">
 				<div className="flex flex-col space-y-5 px-5 items-center z-10 py-10">
 					<LineInput
-						icon={<FaUser className="text-purple-900/70" />}
+						icon={<MdOutlineEmail className="text-purple-900/70" />}
 						text="Enter Email..."
 						type="email"
 						name="email"
