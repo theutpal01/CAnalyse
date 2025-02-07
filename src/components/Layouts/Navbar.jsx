@@ -6,7 +6,7 @@ const Navbar = () => {
 		<nav className='z-30 fixed flex bg-slate-900/40 w-full px-5 md:px-20 lg:px-32 py-2 items-center justify-between backdrop-blur'>
 			<div className='flex items-center space-x-2 text-white font-title'>
 				<img className='h-12' src="/images/logo.png" />
-				<h1 className='font-bold text-xl'><span className='text-4xl text-indigo-400'>C</span>Anal<span className='text-indigo-400'>yser</span></h1>
+				<h1 className='font-bold text-xl'><span className='text-4xl text-indigo-400'>C</span>Analyser</h1>
 			</div>
 
 			<div className='flex items-center space-x-4'>
