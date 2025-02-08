@@ -1,10 +1,11 @@
 import React from 'react'
 
-const FilledButton = ({ text, theme = "primary", type = "button", size = "md", rounded, className, onClick }) => {
+const FilledButton = ({ id, text, theme = "primary", type = "button", size = "md", rounded, className, onClick }) => {
 	const themeClasses = {
 		primary: "bg-purple-600 text-white",
 		secondary: 'bg-secondary text-white',
 		tertiary: 'bg-tertiary text-white',
+		black: 'bg-black text-white',
 	}
 
 	const sizeClasses = {
@@ -14,7 +15,7 @@ const FilledButton = ({ text, theme = "primary", type = "button", size = "md", r
 	}
 
 	return (
-		<button type={type} className={`${className} ${rounded ? 'rounded-full' : ''} ${themeClasses[theme]} ${sizeClasses[size]} shadow-md hover:shadow-lg active:scale-95 hover:scale-105 duration-200 ease-linear cursor-pointer`} onClick={onClick}>
+		<button id={id} type={type} className={`${className} ${rounded ? 'rounded-full' : ''} ${themeClasses[theme]} ${sizeClasses[size]} shadow-md hover:shadow-lg active:scale-95 hover:scale-105 duration-200 ease-linear cursor-pointer`} onClick={onClick}>
 			{text}
 		</button>
 	)

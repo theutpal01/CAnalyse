@@ -41,4 +41,4 @@ const SectionB = () => {
 	)
 }
 
-export default SectionB
+export default SectionB;

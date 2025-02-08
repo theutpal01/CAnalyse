@@ -3,10 +3,12 @@ import FilledButton from '../Base/Buttons/FilledButton'
 
 const Navbar = () => {
 	return (
-		<nav className='z-30 fixed flex bg-slate-900/40 w-full px-5 md:px-20 lg:px-32 py-2 items-center justify-between backdrop-blur'>
-			<div className='flex items-center space-x-2 text-white font-title'>
-				<img className='h-12' src="/images/logo.png" />
-				<h1 className='font-bold text-xl'><span className='text-4xl text-indigo-400'>C</span>Analyser</h1>
+		<nav className='z-30 fixed flex bg-slate-900/40 w-full px-5 md:px-20 lg:px-32 py-3 items-center justify-between backdrop-blur'>
+			<div className='text-white font-title'>
+				<a className='flex space-x-2 items-center' href="/">
+					<img className='h-12' src="/images/logo.png" />
+					<h1 className='font-bold text-xl'><span className='text-4xl text-indigo-400'>C</span>Analyser</h1>
+				</a>
 			</div>
 
 			<div className='flex items-center space-x-4'>

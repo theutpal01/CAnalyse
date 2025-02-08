@@ -8,7 +8,9 @@ const Footer = () => {
 			</div>
 			<div className='flex w-full px-5 md:px-20 lg:px-32 justify-between items-center'>
 				<div className='w-1/4 z-10'>
-					<img className='w-3/4' src="/images/logo.png" alt="" />
+					<a href="/">
+						<img className='w-3/4' src="/images/logo.png" alt="" />
+					</a>
 					<p className='text-sm'>© {new Date().getFullYear()} CAnalyser, Inc. All rights reserved.</p>
 				</div>
 				<div className='w-1/2 grid grid-cols-3 gap-4 z-10'>
